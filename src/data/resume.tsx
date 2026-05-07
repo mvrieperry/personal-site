@@ -237,7 +237,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "/garden-planner-demo.mp4",
     },
   ],
   hackathons: [],
