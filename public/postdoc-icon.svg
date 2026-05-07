@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" preserveAspectRatio="xMidYMid slice">
+  <!-- background -->
+  <rect width="800" height="300" fill="#1f2210"/>
+
+  <!-- subtle dot grid -->
+  <g fill="#3a4220" opacity="0.5">
+    <circle cx="50" cy="50" r="2"/><circle cx="150" cy="50" r="2"/><circle cx="250" cy="50" r="2"/><circle cx="350" cy="50" r="2"/><circle cx="450" cy="50" r="2"/><circle cx="550" cy="50" r="2"/><circle cx="650" cy="50" r="2"/><circle cx="750" cy="50" r="2"/>
+    <circle cx="50" cy="150" r="2"/><circle cx="150" cy="150" r="2"/><circle cx="250" cy="150" r="2"/><circle cx="350" cy="150" r="2"/><circle cx="450" cy="150" r="2"/><circle cx="550" cy="150" r="2"/><circle cx="650" cy="150" r="2"/><circle cx="750" cy="150" r="2"/>
+    <circle cx="50" cy="250" r="2"/><circle cx="150" cy="250" r="2"/><circle cx="250" cy="250" r="2"/><circle cx="350" cy="250" r="2"/><circle cx="450" cy="250" r="2"/><circle cx="550" cy="250" r="2"/><circle cx="650" cy="250" r="2"/><circle cx="750" cy="250" r="2"/>
+    <circle cx="100" cy="100" r="2"/><circle cx="200" cy="100" r="2"/><circle cx="300" cy="100" r="2"/><circle cx="400" cy="100" r="2"/><circle cx="500" cy="100" r="2"/><circle cx="600" cy="100" r="2"/><circle cx="700" cy="100" r="2"/>
+    <circle cx="100" cy="200" r="2"/><circle cx="200" cy="200" r="2"/><circle cx="300" cy="200" r="2"/><circle cx="400" cy="200" r="2"/><circle cx="500" cy="200" r="2"/><circle cx="600" cy="200" r="2"/><circle cx="700" cy="200" r="2"/>
+  </g>
+
+  <!-- left side: stack of books -->
+  <g transform="translate(120, 110)">
+    <!-- bottom book -->
+    <rect x="-60" y="60" width="120" height="22" rx="3" fill="#c4d398"/>
+    <rect x="-60" y="60" width="120" height="6" rx="3" fill="#a8b97a"/>
+    <!-- middle book, offset -->
+    <rect x="-50" y="35" width="110" height="22" rx="3" fill="#8a9b5c"/>
+    <rect x="-50" y="35" width="110" height="6" rx="3" fill="#6e7e44"/>
+    <!-- top book -->
+    <rect x="-55" y="10" width="115" height="22" rx="3" fill="#c4d398"/>
+    <rect x="-55" y="10" width="115" height="6" rx="3" fill="#a8b97a"/>
+    <!-- coffee cup on top -->
+    <ellipse cx="0" cy="6" rx="22" ry="4" fill="#3a2818"/>
+    <path d="M -22,6 L -19,-22 Q -19,-28 -13,-28 L 13,-28 Q 19,-28 19,-22 L 22,6 Z" fill="#e8d4a8" stroke="#7a5a3a" stroke-width="1.5"/>
+    <!-- coffee inside -->
+    <ellipse cx="0" cy="-22" rx="16" ry="3" fill="#3a2818"/>
+    <!-- steam wisps -->
+    <path d="M -8,-32 Q -10,-38 -7,-44 Q -4,-50 -7,-56" stroke="#c4d398" stroke-width="1.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M 0,-32 Q -2,-38 1,-44 Q 4,-50 1,-56" stroke="#c4d398" stroke-width="1.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M 8,-32 Q 6,-38 9,-44 Q 12,-50 9,-56" stroke="#c4d398" stroke-width="1.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <!-- handle -->
+    <path d="M 19,-15 Q 30,-15 30,-5 Q 30,5 19,5" stroke="#7a5a3a" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- right side: title text -->
+  <text x="280" y="135" font-family="ui-sans-serif, system-ui, sans-serif" font-size="38" font-weight="700" fill="#f4ebd8" letter-spacing="-0.02em">The Know-It-All</text>
+  <text x="280" y="180" font-family="ui-sans-serif, system-ui, sans-serif" font-size="38" font-weight="700" fill="#c4d398" letter-spacing="-0.02em" font-style="italic">Postdoc</text>
+  <text x="280" y="220" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#8a9b5c" letter-spacing="0.05em">PUBMED · CHROMADB · BIORXIV</text>
+</svg>
