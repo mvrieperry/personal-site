@@ -227,7 +227,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "A Gradio chatbot AI agent that plays a slightly burnt-out senior postdoc. Three tools: live PubMed search via the Entrez API, semantic search over a local ChromaDB collection of ~1000 AI / drug-discovery abstracts, and a bioRxiv preprint search via Europe PMC. Includes persona-based guardrails that block off-topic questions before any LLM call.",
+        "A Gradio chatbot with the personality of a slightly burnt-out senior postdoc. Ask it a research question and it picks the right tool:\n\n- Live PubMed search via the Entrez API\n- Semantic search over a local ChromaDB collection of ~1000 AI and drug-discovery abstracts\n- bioRxiv preprints via Europe PMC\n\nPersona-based guardrails block off-topic questions before any LLM call.",
       technologies: ["Python", "Gradio", "ChromaDB", "OpenAI API", "Entrez API", "Europe PMC"],
       links: [
         {
