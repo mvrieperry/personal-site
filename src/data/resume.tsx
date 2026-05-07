@@ -17,14 +17,14 @@ export const DATA = {
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
     work: { order: 2, enabled: true, heading: "Work Experience", presentLabel: "Present" },
-    skills: { order: 3, enabled: true, heading: "Skills" },
+    skills: { order: 7, enabled: true, heading: "Skills" },
     projects: {
-      order: 4, enabled: true,
+      order: 3, enabled: true,
       label: "Projects",
       heading: "Things I'm building for fun",
       text: "Personal projects, half-finished experiments, and apps I built to scratch my own itch.",
     },
-    education: { order: 7, enabled: true, heading: "Education" },
+    education: { order: 6, enabled: true, heading: "Education" },
     hackathons: {
       order: 10, enabled: false,
       label: "Hackathons",
@@ -32,12 +32,12 @@ export const DATA = {
       text: "During my time in university, I attended {count}+ hackathons. People from around the country would come together and build incredible things in 2-3 days. It was eye-opening to see the endless possibilities brought to life by a group of motivated and passionate individuals.",
     },
     photos: {
-      order: 5, enabled: true,
+      order: 4, enabled: true,
       heading: "Travels on Film",
       text: "Every trip, I bring a roll of film. I love that I have to wait — getting the scans back weeks later is its own little present, and a chance to slow down and reflect on the trip.",
     },
     music: {
-      order: 6, enabled: true,
+      order: 5, enabled: true,
       label: "Music",
       heading: "DJ-ing",
       text: "DJ-ing is my creative outlet. My favourite genres are house music and drum and bass.",
