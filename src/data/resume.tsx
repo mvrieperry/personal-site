@@ -4,7 +4,7 @@ import { Python } from "@/components/ui/svgs/python";
 
 export const DATA = {
   name: "Marie Perry",
-  initials: "MP",
+  initials: "MCP",
   url: "https://linkedin.com/in/marie-christine-perry",
   location: "Toronto, Canada",
   locationLink: "https://www.google.com/maps/place/toronto+canada",
