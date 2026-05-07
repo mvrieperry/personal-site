@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Product leader working at the intersection of AI and life sciences, with a research background in immunology.",
   summary:
-    "I'm a product manager building AI products for the life-sciences industry, bridging [scientific research](/#education) and modern AI. My day-to-day is shaped by curiosity — the same kind that pulled me from a wet lab into product, and now into shipping LLM-powered tools.\n\nOutside of work, I spend as much time outdoors as possible. I love to travel, rock climb, and generally chase weather and good light. I also DJ — see [below](/#music) — and try to keep a film camera in my bag wherever I go.",
+    "I'm a product manager building AI products for the life-sciences industry, bridging [scientific research](/#education) and modern AI. My day-to-day is shaped by curiosity, the same kind that pulled me from a wet lab into product, and now into shipping LLM-powered tools.\n\nOutside of work, I spend as much time outdoors as possible. I love to travel, rock climb, and generally chase weather and good light. I DJ sometimes (see [below](/#music)) and like to bring a film camera when I'm travelling.",
   avatarUrl: "/avatar.jpg",
   ogImage: "/og_image.png",
   sections: {
@@ -40,7 +40,7 @@ export const DATA = {
       order: 8, enabled: true,
       label: "Music",
       heading: "DJ-ing",
-      text: "When I'm not at work or outside, I'm probably mixing. DJ-ing is my creative outlet — somewhere between a meditation and a party. Mostly house and disco, occasionally something weirder.",
+      text: "DJ-ing is my creative outlet. My favourite genres are house music and drum and bass.",
       image: "/dj.jpg",
       mixUrl: "https://soundcloud.com/marie-christine-perry/dj-mvrie-live-hallokween",
       mixLabel: "Listen to my latest mix on SoundCloud →",
