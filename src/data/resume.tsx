@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Product leader working at the intersection of AI and life sciences, with a research background in immunology.",
   summary:
-    "I'm a product manager building AI products for the life-sciences industry, bridging [scientific research](/#education) and modern AI. My day-to-day is shaped by curiosity, the same kind that pulled me from a wet lab into product, and now into shipping AI products and agentic systems.\n\nWhat drives me is wanting to make scientific research more efficient. That's what brought me to [BenchSci](/#work) and now to [Dotmatics](/#work), where I get to build tools for scientists alongside AI.\n\nOutside of work, I spend as much time outdoors as possible. I love to travel and rock climb. I DJ sometimes (see [below](/#music)) and like to bring a film camera when I'm travelling.",
+    "I'm a product manager building AI products for the life-sciences industry, bridging [scientific research](/#education) and modern AI. My day-to-day is shaped by curiosity, the same kind that pulled me from a wet lab into product, and now into building the kinds of tools I used to wish existed.\n\nWhat drives me is wanting to make scientific research more efficient. That's what brought me to [BenchSci](/#work) and now to [Dotmatics](/#work), where I get to build tools for scientists alongside AI.\n\nOutside of work, I spend as much time outdoors as possible. I love to travel and rock climb. I DJ sometimes (see [below](/#music)) and like to bring a film camera when I'm travelling.",
   avatarUrl: "/avatar.jpg",
   ogImage: "/og_image.png",
   sections: {
